@@ -16,7 +16,8 @@ matplotlib is a plotting library for the Python programming language and its num
 
 NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays
 
-## Problems Set out - Below are the problems set out for this worksheet and in my jupyter notebook file is the execution of these problems with built in graphs and answers  
+## Problems Set out 
+Below are the problems set out for this worksheet and in my jupyter notebook file found in the link <a href="https://github.com/gtonra89/Iris_Data_Problem_Sheet/blob/master/IrisProblem.ipynb">Here</a><br> is the execution of these problems with built in graphs and answers  
 
 ## 1. Get and load the data
 
