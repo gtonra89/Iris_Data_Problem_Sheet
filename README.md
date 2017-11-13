@@ -1,9 +1,22 @@
 # Problem set: Jupyter, pyplot and numpy
 These problems relate to [Jupyter](https://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Notebook%20Basics.html), [numpy](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html), and [pyplot](https://matplotlib.org/users/pyplot_tutorial.html).
 We will use the famous [iris data set](https://en.wikipedia.org/wiki/Iris_flower_data_set).
-Save your work as a single Jupyter notebook file in a GitHub repository.
-Include any required data files, a README, and a gitignore file in the repository.
 
+## What is Jupyter ?
+The Jupyter Notebook
+
+The notebook extends the console-based approach to interactive computing in a qualitatively new direction, providing a web-based application suitable for capturing the whole computation process: developing, documenting, and executing code, as well as communicating the results. The Jupyter notebook combines two components:
+
+A web application: a browser-based tool for interactive authoring of documents which combine explanatory text, mathematics, computations and their rich media output.
+
+Notebook documents: a representation of all content visible in the web application, including inputs and outputs of the computations, explanatory text, mathematics, images, and rich media representations of objects.
+
+## What is pyplot and numpy ?
+matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+
+
+NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays
+
+## Problems Set out - Below are the problems set out for this worksheet and in my jupyter notebook file is the execution of these problems with built in graphs and answers  
 
 ## 1. Get and load the data
 
