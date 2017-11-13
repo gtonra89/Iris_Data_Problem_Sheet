@@ -1,33 +1,65 @@
-# Iris_Data_Problem_Sheet
-## Synopsis
+# Problem set: Jupyter, pyplot and numpy
+These problems relate to [Jupyter](https://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Notebook%20Basics.html), [numpy](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html), and [pyplot](https://matplotlib.org/users/pyplot_tutorial.html).
+We will use the famous [iris data set](https://en.wikipedia.org/wiki/Iris_flower_data_set).
+Save your work as a single Jupyter notebook file in a GitHub repository.
+Include any required data files, a README, and a gitignore file in the repository.
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
 
-## Code Example
+## 1. Get and load the data
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+Search online for Fisher's iris data set, find a copy of the data, download it and save it to your repository.
+If it is not in CSV format, use whatever means (Excel, notepad++, visual studio code, python) to convert it to CSV and save the CSV version to your repository also.
+Open your Jupyter notebook for this problem sheet, creating a new one if needed, and load the CSV file into a numpy array.
 
-## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+## 2. Write a note about the data set
 
-## Installation
+In a markdown cell at the start of your notebook, write a short description of the iris data set, complete with references.
 
-Provide code examples and explanations of how to get the project.
 
-## API Reference
+## 3. Create a simple plot
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+The dataset contains five variables: sepal length, sepal width, petal length, petal width, and species.
+Use pyplot to create a scatter plot of sepal length on the x-axis versus sepal width on the y-axis.
+Add axis labels and a title to the plot.
 
-## Tests
 
-Describe and show how to run the tests with code examples.
+## 4. Create a more complex plot
 
-## Contributors
+Re-create the above plot, but this time plot the setosa data points in red, the versicolor data point in green, and the virginica data points in blue.
+Setosa, versicolor, and virginica are the three possible values of the species variable.
+Add a legend to the plot showing which species is in which colour.
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
 
-## License
+## 5. Use seaborn
 
-A short snippet describing the license (MIT, Apache, etc.)
+Use the [seaborn](http://seaborn.pydata.org/examples/scatterplot_matrix.html) library to create a scatterplot matrix of all five variables.
 
+
+## 6. Fit a line
+
+Fit a straight line to the variables petal length and petal width for the whole data set.
+Plot the data points in a scatter plot with the best fit line shown.
+
+
+## 7. Calculate the R-squared value
+
+Calculate the R-squared value for your line above.
+
+
+## 8. Fit another line
+
+Use numpy to select only the data points where species is setosa.
+Fit a straight line to the variables petal length and petal width.
+Plot the data points in a scatter plot with the best fit line shown.
+
+
+## 9. Calculate the R-squared value
+
+Calculate the R-squared value for your line above.
+
+
+## 10. Use gradient descent
+
+Use gradient descent to approximate the best fit line for the petal length and petal width setosa values.
+Compare the outputs to your calculations above.
