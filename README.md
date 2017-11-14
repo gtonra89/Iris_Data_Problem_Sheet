@@ -4,8 +4,8 @@ We will use the famous [iris data set](https://en.wikipedia.org/wiki/Iris_flower
 
 ## What is Jupyter ?
 <a href = "http://jupyter.org/"><img src="https://cdn-images-1.medium.com/max/800/1*j4ji49J3lTTNUvSsNsg6LA.png"></a>
+<br>
 The Jupyter Notebook
-
 The notebook extends the console-based approach to interactive computing in a qualitatively new direction, providing a web-based application suitable for capturing the whole computation process: developing, documenting, and executing code, as well as communicating the results. The Jupyter notebook combines two components:
 
 A web application: a browser-based tool for interactive authoring of documents which combine explanatory text, mathematics, computations and their rich media output.
